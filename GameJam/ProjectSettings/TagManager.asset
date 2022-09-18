@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Table
+    uniqueID: 3124817599
+    locked: 0
+  - name: Cloth
+    uniqueID: 2404289951
+    locked: 0
+  - name: Ingredient
+    uniqueID: 758206037
+    locked: 0
+  - name: Jar
+    uniqueID: 2954785299
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
