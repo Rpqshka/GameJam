@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public static bool gameIsPaused = false;
+    [SerializeField] GameObject pauseMenuUI;
 
-    public GameObject pauseMenuUI;
+    private bool gameIsPaused = false;
     
     // Start is called before the first frame update
     void Start()
@@ -49,7 +49,6 @@ public class PauseMenu : MonoBehaviour
     {
         Debug.Log("Loading menu...");
         Time.timeScale = 1f;
-        //хорошо бы убрать этот костыль с именем сцены)
         SceneManager.LoadScene("Main Menu");
     }
 
