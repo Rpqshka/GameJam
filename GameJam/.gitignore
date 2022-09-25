@@ -24,11 +24,7 @@
 .vs/
 
 # Visual Studio Code
-<<<<<<< Updated upstream
 **/.vscode/
-=======
-.vscode/*
->>>>>>> Stashed changes
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
