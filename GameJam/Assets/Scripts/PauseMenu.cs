@@ -52,9 +52,8 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
     }
 
-    public void QuitGame()
+    public void SetGame()
     {
-        Debug.Log("Quitting game...");
-        //Application.Quit();
+        Debug.Log("Open settings screen...");
     }
 }
